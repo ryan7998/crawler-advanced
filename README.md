@@ -1,5 +1,7 @@
 # CrawlerPro — Advanced Web Scraping Platform
 
+**Canonical repo:** [github.com/ryan7998/crawler](https://github.com/ryan7998/crawler). Clone and open issues there.
+
 A full-stack web application for crawling websites, extracting structured data with custom CSS selectors, and exporting results to Google Sheets or CSV. Features real-time progress updates, a Bull/Redis job queue, proxy usage analytics, and role-based authentication.
 
 ## Live Demo
@@ -57,7 +59,7 @@ A full-stack web application for crawling websites, extracting structured data w
 ## Project Structure
 
 ```
-crawler-advanced/
+crawler/
 ├── client/                       # Vue 3 frontend
 │   ├── src/
 │   │   ├── App.vue
@@ -112,8 +114,8 @@ crawler-advanced/
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/yourusername/crawler-advanced.git
-cd crawler-advanced
+git clone https://github.com/ryan7998/crawler.git
+cd crawler
 
 # Server
 cd server && npm install
